@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CmbtLib.Abstract.Commands.AttackCommandBase">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAQA4AAAABAIAACICAAAABAAABAQAAAAAAAA=</HashCode>
+      <FileName>Abstract\Commands\AttackCommandBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CmbtLib.Abstract.Entities.CombatEntityBase">
+    <Position X="6.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAQCAAAACAAEAABIAAAQAAAAAAAIAAABAAAAAAAE=</HashCode>
+      <FileName>Abstract\Entities\CombatEntityBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CmbtLib.Abstract.Results.CombatResultBase" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstract\Results\CombatResultBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CmbtLib.Concrete.Commands.BasicAttack">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\Commands\BasicAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CmbtLib.Concrete.Entities.TargetDummy">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\Entities\TargetDummy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CmbtLib.Concrete.GlobalLog" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAEUAAAAIAAAAAAAAAAAAIBAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\GlobalLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CmbtLib.Concrete.Results.CriticalHitResult" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\Results\CriticalHitResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CmbtLib.Concrete.Results.HitResult" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\Results\HitResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CmbtLib.Concrete.Results.MissResult">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\Results\MissResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CmbtLib.EventHandling.CombatLogEventArgs" Collapsed="true">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>EventHandling\CombatLogEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CmbtLib.Modifiers.HitModifier">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Modifiers\HitModifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CmbtLib.Modifiers.HitMultiplier">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Modifiers\HitMultiplier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CmbtLib.Abstract.Commands.IAttackCommand">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAQAoAAAABAIAACAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Abstract\Commands\IAttackCommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CmbtLib.Abstract.Entities.ICombatEntity">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAQCAAAACAAEAABIAAAQAAAAAAAIAAABAAAAAAAA=</HashCode>
+      <FileName>Abstract\Entities\ICombatEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CmbtLib.Abstract.Results.ICombatResult">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstract\Results\ICombatResult.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CmbtLib.Abstract.Weapons.IWeapon">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstract\Weapons\IWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="CmbtLib.EventHandling.CombatLogEventHandler">
+    <Position X="10" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventHandling\CombatLogEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

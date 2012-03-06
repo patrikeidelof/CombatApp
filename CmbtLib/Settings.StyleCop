@@ -1,0 +1,10 @@
+<StyleCopSettings Version="4.3">
+  <Analyzers>
+    <Analyzer AnalyzerId="Microsoft.StyleCop.CSharp.DocumentationRules">
+      <AnalyzerSettings>
+        <StringProperty Name="CompanyName">E&amp;L Patrik Eidelöf</StringProperty>
+        <StringProperty Name="Copyright">Copyright (c) 2011 Patrik Eidelöf </StringProperty>
+      </AnalyzerSettings>
+    </Analyzer>
+  </Analyzers>
+</StyleCopSettings>

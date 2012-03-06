@@ -1,0 +1,296 @@
+<stylecopresultscache>
+  <version>11</version>
+  <sourcecode name="IWeapon.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/06/2011 17:44:19</timestamp>
+    <milliseconds>875</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="AttackCalculator.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/06/2011 17:44:19</timestamp>
+    <milliseconds>626</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="TargetDummy.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/06/2011 17:44:19</timestamp>
+    <milliseconds>596</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="CriticalHitResult.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/06/2011 17:44:19</timestamp>
+    <milliseconds>517</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="CombatLogEventArgs.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/12/2011 14:22:09</timestamp>
+    <milliseconds>70</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="CombatLogEventHandler.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/12/2011 14:22:09</timestamp>
+    <milliseconds>88</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="HitMultiplier.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/06/2011 17:44:20</timestamp>
+    <milliseconds>361</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="AssemblyInfo.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/06/2011 17:44:20</timestamp>
+    <milliseconds>341</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <project key="-1858365679">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="IAttackCommand.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/17/2011 11:22:45</timestamp>
+    <milliseconds>697</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="AttackCommandBase.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/17/2011 11:30:45</timestamp>
+    <milliseconds>352</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementReturnValueMustBeDocumented" ruleCheckId="SA1615">
+        <context>The documentation header must contain a returns tag since the element has a return value.</context>
+        <line>104</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="ICombatEntity.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/13/2011 14:48:06</timestamp>
+    <milliseconds>247</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="CombatEntityBase.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/17/2011 14:47:56</timestamp>
+    <milliseconds>54</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="CombatResultBase.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/17/2011 11:34:37</timestamp>
+    <milliseconds>98</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="ICombatResult.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/17/2011 11:33:25</timestamp>
+    <milliseconds>564</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="BasicAttack.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/17/2011 11:29:13</timestamp>
+    <milliseconds>899</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="GlobalLog.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/17/2011 11:01:51</timestamp>
+    <milliseconds>944</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="HitResult.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/17/2011 11:37:54</timestamp>
+    <milliseconds>663</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="MissResult.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/17/2011 11:37:55</timestamp>
+    <milliseconds>224</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="HitModifier.cs" parser="StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>05/06/2011 17:44:20</timestamp>
+      <milliseconds>363</milliseconds>
+    </settings>
+    <timestamp>05/17/2011 11:13:55</timestamp>
+    <milliseconds>708</milliseconds>
+    <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileMustHaveHeader" ruleCheckId="SA1633">
+        <context>The file has no header, the header Xml is invalid, or the header is not located at the top of the file.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+</stylecopresultscache>

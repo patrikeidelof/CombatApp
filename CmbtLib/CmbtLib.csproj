@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29CA7118-BD5C-4D27-A41E-79F3766A32CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CmbtLib</RootNamespace>
+    <AssemblyName>CmbtLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <HintPath>..\3rdparty\log4net\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Telerik.WinControls, Version=2010.1.10.504, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.UI, Version=2010.1.10.504, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="TelerikCommon, Version=2010.1.10.504, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\Abilities\IAbility.cs" />
+    <Compile Include="Abstract\Abilities\ISustainedAbility.cs" />
+    <Compile Include="Abstract\Weapons\IWeapon.cs" />
+    <Compile Include="Concrete\Abilities\DefendAbility.cs" />
+    <Compile Include="Concrete\AttackType.cs" />
+    <Compile Include="Concrete\Commands\BasicAttack.cs" />
+    <Compile Include="Concrete\DamageType.cs" />
+    <Compile Include="Concrete\Entities\Human.cs" />
+    <Compile Include="Concrete\Entities\TargetDummy.cs" />
+    <Compile Include="Concrete\GlobalLog.cs" />
+    <Compile Include="EventHandling\CombatLogEventHandler.cs" />
+    <Compile Include="EventHandling\CombatLogEventArgs.cs" />
+    <Compile Include="Concrete\Results\CriticalHitResult.cs" />
+    <Compile Include="Concrete\Results\HitResult.cs" />
+    <Compile Include="Concrete\Results\MissResult.cs" />
+    <Compile Include="Abstract\Commands\AttackCommandBase.cs" />
+    <Compile Include="Abstract\Entities\CombatEntityBase.cs" />
+    <Compile Include="Abstract\Commands\IAttackCommand.cs" />
+    <Compile Include="Abstract\Entities\ICombatEntity.cs" />
+    <Compile Include="Abstract\Results\CombatResultBase.cs" />
+    <Compile Include="Abstract\Results\ICombatResult.cs" />
+    <Compile Include="Modifiers\ArmorModifier.cs" />
+    <Compile Include="Modifiers\DamageModifier.cs" />
+    <Compile Include="Modifiers\EvadeModifier.cs" />
+    <Compile Include="Modifiers\HitModifier.cs" />
+    <Compile Include="Modifiers\HitMultiplier.cs" />
+    <Compile Include="Modifiers\ModifierBase.cs" />
+    <Compile Include="Modifiers\MultiplierBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
